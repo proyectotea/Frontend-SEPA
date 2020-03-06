@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -37,14 +36,14 @@ h1{
     padding-right: 30px; 
     padding-left: 30px; 
     margin-top: 35px; 
-    background: royalblue; 
-    border-color:royalblue; 
+    background: lightseagreen; 
+    border-color:lightseagreen; 
     font-size: 17px;
 }
 
 #boton:hover{
-background: blue;
-border-color: blue;
+background: seagreen;
+border-color: seagreen;
 
 }
 
@@ -63,7 +62,9 @@ border-color: blue;
 }
 /**/
 .navbar{
-    background:#303030;
+    background:#1D2023;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .navbar-nav{
     text-align: center;
@@ -79,12 +80,20 @@ border-color: blue;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+    padding-top: 19px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #24292e;
 }
 .nav >li>a:hover{
-    color: royalblue;
+    
+    color:lightseagreen;
     border-style: none;
     background: transparent;
 }
+
 .logoCustom{
     height: 36px;
     display: inline-block;
@@ -157,7 +166,7 @@ font-weight: inherit;
 #about{
     
    
-    background-image: url(bg.jpg);
+    background-image: url();
   
 }
 

@@ -1,0 +1,3 @@
+3 fila del formulario cambiar telefono por fecha de nacimiento y poner fecha de nacimiento como label (darle mismo color de background que boton registrar)
+poner el input direccion
+direccion y telefono arriba de correo
