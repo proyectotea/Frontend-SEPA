@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta http-equiv="content-type" content="text/html" ; charset="urf-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <meta name="viewport"
+      content="width=device-width, user-scalabre=no, initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
+   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="RegistroMedico.css">
+   <link rel="stylesheet" href="SEPA-FOOTER.css">
+   <link rel="stylesheet" href="IconoFlechaArriba/fonts.css">
+   <link href="fonts.css" rel="stylesheet">
+   <link rel="shortcut icon" href="img/Nuevos logos/logo_pequeño.png">
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+
+
+
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+   <title>LandingPage - SEPA</title>
+
+</head>
+
+
+<section  class="CONTENIDO-COMPLETO">
+
+
+   <body>
+      <section class="navbar custom-navbar navbar-fixed-top top-nav-collapse" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <div class="row">
+                  <div class="col-md-4 col-sm-12">
+                     <ul class="nav navbar-nav navbar-right logoMenuTemp">
+                        <a href="#" class="section-btnLogo">
+                           <img src="img/Nuevos logos/logo_mediano.png" class="logoCustom1">
+                           <button class="navbar-toogle menuCustomLogoline" data-toggle="collapse"
+                              data-target=".navbar-collapse">
+                              <span class="icon icon-menu"></span>
+                           </button>
+                        </a>
+                     </ul>d
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+
+                  </div>
+               </div>
+            </div>
+            <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-nav-first">
+                  <li><a href="#Nosotros" class="smoothScroll">Nosotros</a></li>
+                  <li><a href="#Contacto" class="smoothScroll">Contacto</a></li>
+               </ul>
+
+            </div>
+         </div>
+      </section>
+
+
+
+      <!--Informacion-->
+      <section id="about">
+
+         <div style="padding-top: 115px;" class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about-info">
+                     <div class="section-title">
+                        
+                        <h2><i style="font-size: 45px;">"La mejor manera de encontrar la felicidad es ayudando a otros a alcanzar la suya "</i> </h2>
+                     </div>
+                     <div class="">
+                        <p>- Juan Pablo Meza 
+                        </p>
+
+
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <!--Efectos del registro-->
+               <div
+                  style="bottom: 38px; box-shadow: 0 15px 25px rgba(0,0,0,.5); box-sizing: border-box; border-radius: 15px; background: rgba(0,117,109,.5); "
+                  class="col-md-6">
+
+
+                  <form action="#">
+                     <div style="background-color: lightseagreen; border-radius: 10px;">
+                        <h1> CREE SU CUENTA</h1>
+                     </div>
+                     <div style="padding-top: 25px;" class="col-md-6">
+                        <input type="text" class="form-control" name="name" id="cf-name" placeholder="Nombre">
+                     </div>
+                     <div style="padding-top: 25px;" class="col-md-6">
+                        <input type="text" class="form-control" name="apellido" id="cf-apellido" placeholder="Apellido">
+                     </div>
+                     <div style="padding-top: 25px;" class="col-md-6">
+                        <select class="form-control" name="tdocumento" id="tdocumento" placeholder="Tipo de documento">
+                           <option value="ti"> Tipo de documento</option>
+                           <option value="ti"> Tarjeta de Identidad</option>
+                           <option value="cc"> Cedula Ciudadana</option>
+                           <option value="ce"> Cedula Extranjera</option>
+                        </select>
+                     </div>
+                     <div style="padding-top: 25px;" class="col-md-6">
+                        <input type="number" class="form-control" name="ndocumento" id="ndocumento"
+                           placeholder="Numero de documento">
+                     </div>
+                     <div style="padding-top: 25px;" class="col-md-6">
+                        <input type="number" class="form-control" placeholder="Telefono">
+                     </div>
+                     <div style="padding-top: 25px;" class="col-md-6">
+                        <input type="date" class="form-control">
+
+                     </div>
+
+                     <div style="padding-top: 25px;" class="col-md-4">
+                         <input type="text" class="form-control" placeholder="Tarjeta profesional">
+
+                     </div>
+                     <div style="padding-top: 25px;" class="col-md-4">
+                        <input type="number" class="form-control" placeholder="Años experiencia">
+
+                    </div>
+                    <div style="padding-top: 25px;" class="col-md-4">
+                     <select type="text" class="form-control" placeholder="Tipo de medico">
+                     </select>
+                 </div>
+                    
+                     
+                 <div style="padding-top: 5px;" class="col-md-12">
+                        <hr>
+                     </div>
+
+                     <div style="  padding-top: 5px;" class="col-md-12">
+                        <input type="email" class="form-control" name="email" id="cf-email"
+                           placeholder="Correo Electrónico">
+                     </div>
+                     <div style=" padding-top: 25px;" class="col-md-12">
+                        <input type="password" class="form-control" name="contraseña" placeholder="Contraseña">
+                     </div>
+                     <div style="text-align: center; padding-bottom: 20px; padding-top: 25px;" class="col-md-12">
+                        <input type="password" class="form-control" name="confirmar-contraseña"
+                           placeholder="Confirmar contraseña">
+                        <button type="submit" id="boton"class="btn btn-info"> Registrar</button>
+
+                     </div>
+                
+               </div>
+
+            </div>
+
+            </form>
+         </div>
+         </div>
+         </div>
+         </div>
+      </section>
+
+
+
+
+
+
+
+   </body>
+
+
+
+
+
+</section>
+ 
+      <!--FOOTER/FIn-->
+<section id="footer">
+   <div class="container-fluid">
+      <div class="row">
+        
+
+
+      <footer>
+
+         <div class="container-footer-all">
+
+            <div class="container-body">
+
+
+
+               <div class="colum2">
+
+
+
+                  <div class="row-footer">
+                     <img style="width: 36px;" src="icon/facebook.png">
+                     <label>Siguenos en Facebook</label>
+                  </div>
+                  <div class="row-footer">
+                     <img style="width: 36px;" src="icon/twitter.png">
+                     <label>Siguenos en Twitter</label>
+                  </div>
+                  <div class="row-footer">
+                     <img style="width: 36px;" src="icon/instagram.png">
+                     <label>Siguenos en Instagram</label>
+                  </div>
+                  <div class="row-footer">
+                     <img style="width: 36px;" src="icon/google-plus.png">
+                     <label>Siguenos en Google Plus</label>
+                  </div>
+                  <div class="row-footer">
+                     <img style="width: 36px;" src="icon/pinterest.png">
+                     <label>Siguenos en Pinteres</label>
+                  </div>
+
+
+               </div>
+
+            </div>
+
+         </div>
+
+         <div class="container-footer">
+            <div class="footer">
+               <div class="copyright">
+                  © 2019 Todos los Derechos Reservados | <a href="">SEPA</a>
+               </div>
+
+               <div class="information">
+                  <a href="">Privacion y Politica</a> | <a href="">Terminos y
+                     Condiciones</a>
+               </div>
+            </div>
+
+         </div>
+
+      </footer>
+      </div>
+   </div>
+</section>
+
+</html>

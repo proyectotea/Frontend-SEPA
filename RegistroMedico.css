@@ -1,0 +1,309 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+        scroll-behavior: smooth;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+section{
+    background:white;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0 , 0, 0, 0.7);
+}
+a:hover{
+    color: red;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#boton{
+    padding-right: 30px; 
+    padding-left: 30px; 
+    margin-top: 35px; 
+    background: lightseagreen; 
+    border-color:lightseagreen; 
+    font-size: 17px;
+}
+
+#boton:hover{
+background: seagreen;
+border-color: seagreen;
+
+}
+
+
+/* Diseño para el boton*/
+.navbar-toogle{
+    float: right;
+    position: relative;
+    padding: 9px 10px;
+    border: none;
+    background: transparent;
+    margin-right: 20px;
+}
+.icon-menu{
+    color: red;
+}
+/**/
+.navbar-nav{
+    text-align: center;
+    float: right;
+}
+ .nav li a {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    padding-right: 22px;
+    padding-left: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav >li>a:hover{
+    color: #18894B;
+    border-style: none;
+    background: transparent;
+}
+.logoCustom{
+    height: 36px;
+    display: inline-block;
+    margin: 0em 0 0 0em;
+    margin-top: 3px;
+}
+.logoCustom1{
+    height: 36px;
+    display: inline-block;
+    margin: 0em 0 0 0em;
+    margin-top: 3px;
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner>.item{
+    height: 650px;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-caption{
+    font-size: 50px;
+    color:#18894B;
+}
+
+
+
+/*About*/
+h4{
+    color: #bfbdbd;
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: inherit;
+}
+h2{
+    color: white;
+    padding-bottom: 15px;
+   line-height: unset;
+   letter-spacing: 2px;
+   
+}
+.informacion{
+color: #5c76ab;
+padding: 12px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: inherit;
+
+}
+.about-info p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+
+.section-title h{
+    margin: 0;
+    font-weight: bold;  
+    font-size: 24px;
+}
+.about-info{
+    padding: 0 6em 5em 0;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+#about{
+    
+   
+    background-image: url(fondo2.PNG);
+  
+}
+
+#about::before{
+content: "";
+width: 100%;
+height: 100%;
+background-color: #101010;
+position: fixed;
+opacity: 0.5;
+
+}
+
+
+
+
+/*FOOTER*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    position: relative;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 40px 15px 40px;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 22px;
+}
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row-footer{
+    margin-top: 20px;
+
+}
+
+.row img-footer{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+.colum2{
+    max-width: 400px;
+    display: contents;
+    
+}
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
