@@ -13,7 +13,7 @@
 body{
     width: 100%;
     height: 100%;
-    font-family: 'Times New Roman', Times, serif;
+   
 }
 
 
@@ -36,7 +36,7 @@ h1{
 #boton{
     padding-right: 30px; 
     padding-left: 30px; 
-    margin-top: 35px; 
+    margin-top: 16px; 
     background: royalblue; 
     border-color:royalblue; 
     font-size: 17px;
@@ -50,29 +50,37 @@ border-color: blue;
 
 
 /* Diseño para el boton*/
-.navbar-toogle{
-    float: right;
-    position: relative;
-    padding: 9px 10px;
-    border: none;
-    background: transparent;
-    margin-right: 20px;
+header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
-.icon-menu{
-    color: red;
+
+a:hover {
+    color: royalblue;
+    text-decoration: underline;
 }
-/**/
-.navbar{
-    background:#1D2023;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
 }
-.navbar-nav{
-    text-align: center;
-    float: right;
-    
+.dropdown-menu {
+min-width: 0px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
 }
- .nav li a {
+
+.nav li a {
     font-size: 12px;
     font-weight: bold;
     color: #C7C7C7;
@@ -82,46 +90,65 @@ border-color: blue;
     text-transform: uppercase;
     text-decoration: none;
     padding-top: 19px;
+    padding-bottom: 17px;
 }
-.nav > li > a:hover,
-.nav > li > a:focus {
-  text-decoration: none;
-  background-color: #24292e;
+.dropdown-menu{
+    background: #1D2129;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
 }
-.nav >li>a:hover{
+.dropdown-menu>a:focus{
+ 
+        text-decoration: none;
+        background-color: #24292e;
     
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #C7C7C7;
+    text-decoration: none;
+    background-color: #24292e;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color:  #24292e;
+}
+
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #24292e;
+}
+
+.nav >li>a:hover {
     color: royalblue;
     border-style: none;
     background: transparent;
 }
 
-.logoCustom{
-    height: 36px;
-    display: inline-block;
-    margin: 0em 0 0 0em;
-    margin-top: 3px;
+li{
+
+    padding-left: 15px;
 }
-.logoCustom1{
-    height: 36px;
-    display: inline-block;
-    margin: 0em 0 0 0em;
-    margin-top: 3px;
-    width: 100%;
-    height: 100%;
-}
-.carousel-inner>.item{
-    height: 650px;
-}
-.carousel-inner{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.carousel-caption{
-    font-size: 50px;
-    color:#18894B;
+#search{
+
+    margin-right: 400px;
 }
 
+.navbar{
+    background:#1D2023;
+    
+}
+
+a{
+    color: white;
+}
+.btn-success {
+    color: #fff;
+    background-color: royalblue;
+    border-color: royalblue;
+
+}
 
 
 /*About*/
@@ -186,13 +213,6 @@ opacity: 0.5;
 
 /*FOOTER*/
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
 
 footer{
     width: 100%;
@@ -237,9 +257,9 @@ footer{
     height: 36px;
 }
 
-.row label{
+#footerlabel{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 6px;
     color: #C7C7C7;
 }
 

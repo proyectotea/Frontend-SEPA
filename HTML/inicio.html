@@ -3,114 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSS/inicio.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/Inicio.css">
+    <link rel="stylesheet" href="../CSS/SEPA-FOOTER.css">
+   <link href="../CSS/fonts.css" rel="stylesheet">
+   <title>SEPA</title>
 </head>
 <body>
     
     <header>
-        <nav class="navbar navbar-expand-lg " style="padding-left: 40px;" >
+        <nav class="navbar navbar-expand-lg" style="padding-left: 40px;" >
             <a class="navbar-brand" href="#">
-                <img src="/IMAGENES/Nuevos logos/logo.png" width="30" height="30" alt="">
-                SEPA 
+                <img src="../IMAGENES/Nuevos logos/logo.png" width="30" height="30" alt="">
+                <b>SEPA</b> 
               </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+              <ul class="nav navbar-nav navbar-nav-first">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(current)</span> </a>
+                  <a class="nav-link" href="Inicio.html" style="color: white; padding-left: 25px; padding-right: 25px;">Home <span class="sr-only">(current)</span> </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#" style="padding-left: 30px; padding-right: 30px;">Link</a>
                 </li>
                 
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </ul>
+              <ul style="padding-right: 25px;" class="nav navbar-nav navbar-nav-first">
+                <li>
+                  <a href="#Nosotros" class="smoothScroll">Nosotros</a>
                 </li>
-              </ul>
-              
-              
-
-              <ul class="navbar-nav">
-              <li style="padding-right: 15px;" class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Registrarse
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Cuidador</a>
-                  <a class="dropdown-item" href="#">Especialista</a>
-                 
-                 
-                </div>
-              </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0" style="margin-right: 3%;" id="search">
+                <li>
+                  <a href="#Contacto" class="smoothScroll">Contacto</a>
+                </li>
+             </ul>
+                      
+             
+              <form class="nav navbar-nav navbar-nav-first" style="margin-right: 2%; margin-left: 24.5%;" id="search">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
               </form>
+
+              <ul class="nav navbar-nav navbar-nav-first">
+                <li style="padding-right: 15px; padding-left: 0px;" class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Registrarse
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Cuidador</a>
+                    <a class="dropdown-item" href="#">Especialista</a>
+                   
+                   
+                  </div>
+                </li>
+                </ul>
+              
             </div>
           </nav>
 
         
     </header>
     
-  <section id="contenido">
-    <!--primera columna -->
-     <div style="padding-top: 115px;" class="container">
-     <div class="row">
-       <div class="col-md-6">
-         <div id="infocontenido">
-         <div id="titulo-contenido">
-           <h1>CREADO PARA PERSONAS CON TEA...</h1> 
-         </div> <br> <br>
-         <div id="parrafo-contenido">
-           <p> SEPA una plataforma para la gestión del seguimiento de pacientes con TEA. 
 
-           </p>
+    <section id="contenido">
 
-         </div>
-        </div>
-       </div>
-       <!--segunda columna-->
-       <div class="col-md-4" style="padding-left: 50px;" id="formulario">
-         <form action="#">
-           <div id="titulo-registro">
-             <h1>Inicio de Sesion</h1>
+      <div style="padding-top: 115px;" class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="infocontenido">
+            <div id="titulo-contenido">
+              <h2>CREADO PARA PERSONAS CON TEA...</h2> 
+            </div> <br> <br>
+            <div id="parrafo-contenido">
+              <h4> SEPA una plataforma para la gestión del seguimiento de pacientes con TEA. 
+   
+              </h4>
+   
+            </div>
            </div>
-            <div class="cajasdetexto">
-              <input type="text" placeholder="Usuario" class="form-control">
-            </div>
-            <div class="cajasdetexto">
-              <input type="password" placeholder="Contraseña" class="form-control" >
-            </div>
-           
-           
+          </div>
+          <!--segunda columna-->
+          <div class="col-md-4" style="padding-left: 50px;" id="formulario">
+            <form action="#">
+              <div id="titulo-registro">
+                <h1>Inicio de Sesion</h1>
+              </div>
+               <div class="cajasdetexto">
+                 <input type="text" placeholder="Usuario" class="form-control">
+               </div>
+               <div class="cajasdetexto">
+                 <input type="password" placeholder="Contraseña" class="form-control" >
+               </div>
+              
+              
+   
+   
+            </form>
+          </div>
+        </div>
+   
+        </div>
+              
+   </section>
 
-
-         </form>
-       </div>
-     </div>
-
-     </div>
-
-     
-
-     
-
-     
-  </section>
-  
-
-
-
-
-
-    
 </body>
+
+ <!--FOOTER/FIn-->
+ <section id="footer">
+  <div class="container-fluid">
+     <div class="row">
+       
+
+
+     <footer>
+
+        <div class="container-footer-all">
+
+           <div class="container-body">
+
+
+
+              <div class="colum2">
+
+
+
+                 <div class="row-footer">
+                    <img style="width: 36px;" src="../IMAGENES/icon/facebook.png">
+                    <a href="#" id="footerlabel"><B>Siguenos en Facebook</B></a>
+                 </div>
+                 <div class="row-footer">
+                    <img style="width: 36px;" src="../IMAGENES/icon/twitter.png">
+                    <a href="#" id="footerlabel"><b>Siguenos en Twitter</b></a>
+                 </div>
+                 <div class="row-footer">
+                    <img style="width: 36px;" src="../IMAGENES/icon/instagram.png">
+                    <a href="#" id="footerlabel"><b>Siguenos en Instagram</b></a>
+                 </div>
+                 <div class="row-footer">
+                    <img style="width: 36px;" src="../IMAGENES/icon/google-plus.png">
+                    <a href="#" id="footerlabel"><b>Siguenos en Google Plus</b></a>
+                 </div>
+                 <div class="row-footer">
+                    <img style="width: 36px;" src="../IMAGENES/icon/pinterest.png">
+                    <a href="#" id="footerlabel"><b>Siguenos en Pinteres</b></a>
+                 </div>
+
+
+              </div>
+
+           </div>
+
+        </div>
+
+        <div class="container-footer">
+           <div class="footer">
+              <div class="copyright">
+                 © 2019 Todos los Derechos Reservados | <a href="">SEPA</a>
+              </div>
+
+              <div class="information">
+                 <a href="">Privacion y Politica</a> | <a href="">Terminos y
+                    Condiciones</a>
+              </div>
+           </div>
+
+        </div>
+
+     </footer>
+     </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</section>
 
 <!--Scripts-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
