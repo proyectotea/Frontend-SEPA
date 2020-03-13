@@ -6,12 +6,18 @@
     box-sizing: border-box;
     
         scroll-behavior: smooth;
+       
 }
 
 body{
     width: 100%;
     height: 100%;
-  
+  background: white;
+}
+section{
+    background:white;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0 , 0, 0, 0.7);
 }
 
 h1{
@@ -125,10 +131,11 @@ a{
 }
 
 
-
+/*INICIO*/
 #contenido{
 
     background-image: url(../IMAGENES/BackgroundCuidador.jpg);
+    
 }
 
 #contenido::before{
@@ -148,25 +155,44 @@ a{
 
 .cajasdetexto{
 
-   padding-top: 50px;
+   padding-top: 45px;
+}
+
+#botonlogueo {
+    padding-left: 137px;
+    padding-right: 146px;
+    margin-left: 49px;
+    margin-top: 59px;
+} 
+#inputlogueo{
+    width: 84%;
 }
 .form-control{
     border-radius: 4px;
     width: 70%;
-    border-color: steelblue;
+    border-color: white;
     
 }
 #formulario{
-    background: rgba(0,70,100,.5);
+    background: rgba(100,192,203,0.5);
     padding-bottom: 50px;
     padding-top: 30px;
     border-radius: 15px;
     width: 50%;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    margin-bottom: 15%;
+    margin-left: 65px;
+    
 }
 
-.col-md-6{
-    margin-right: 150px;
+
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
 }
 
 h4{
@@ -176,11 +202,245 @@ h4{
     font-weight: inherit;
 }
 h2{
+    font-size: 48px;
     color: white;
     padding-bottom: 15px;
    line-height: unset;
-   letter-spacing: 2px;
+   letter-spacing: 4px;
 }
+h3{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 15px;
+   line-height: unset;
+   letter-spacing: 1px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #1D2023;
+    border-color: #1D2023;
+}
+
+/*Nosotros*/
+#Nosotros{
+    background: #0A2047;
+    position: relative;
+}
+.container-fluid{
+    position: relative;
+}
+#equipo{
+    
+    padding: 25px 0;
+    padding-left: 63px;
+    padding-right: 63px;
+    background: #1D3664;
+    position: relative;
+    padding-bottom: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    
+
+  
+}
+/*box-shadow: 0px 0px 14px rgba(1 , 0, 0, 0.7);*/
+
+#equipo .tituloequipo p{
+    font-size: 30px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: '', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.container-equipo{
+   padding: 30px 0 40px;
+   background: white;
+   text-align: center;
+   overflow: hidden;
+   position: relative;
+   border-radius: 15px;
+   box-shadow: 0 15px 25px rgba(0,0,0,.5);
+   margin-right: 18px;
+   margin-left: 18px;
+}
+.container-equipo .pic{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index:1;
+}
+.container-equipo .pic::before{
+    content: "";
+    width: 100%;
+    background: lightskyblue;
+    position: absolute;
+    right: 0;
+    left: 0;
+    transform: scale(3);
+    top: -20px;
+transition: all 0.3s linear 0s;
+}
+.container-equipo:hover .pic::before{
+height: 40%;
+}
+
+.container-equipo .pic::after{
+content: "";
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background: skyblue;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+.container-equipo .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+    border: 3px solid;
+
+}
+.container-equipo:hover .pic img{
+    box-shadow:  0 0 0 14px white;
+    transform: scale(0.7);
+}
+
+.container-equipo .equipo-content{
+    /*margin-bottom: 30px;*/
+}
+
+.container-equipo .tituloequipo{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: -7px;
+}
+
+.container-equipo .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    
+}
+
+.container-equipo .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #eb1768;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.container-equipo:hover .social{
+    bottom: 0;;
+}
+
+.container-equipo .social li{
+    display: inline-block;
+}
+
+.container-equipo .social li a{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+.container .social li a:hover{
+    color: #eb1768;
+    background: #f7f5ec;
+    text-decoration: none;
+    
+}
+
+
+/*Contacto*/
+
+h5 {
+    font-size: 30px;
+    color: gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: '', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid gray;
+}
+
+#Contacto p{
+    margin: 0;
+}
+#Contacto h2{
+    padding-left: 15px;
+}
+#Contacto form{
+    padding-left: 15px;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+#Contacto .form-control{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    transition: all ease-in-out 0.4s;
+    width: 100%;
+}
+
+#Contacto #cf-message{
+    background: white;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: all ease-in-out 0.4s;
+}
+#Contacto #cf-submit:hover{
+    background: black;
+    color: white;
+}
+
+.Contacto{
+    padding: 0 6em 5em 0;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Contacto{
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+    padding: 15px 0;
+    background:  white;
+    position: relative;
+  
+}
+
+
+
 
 
 
