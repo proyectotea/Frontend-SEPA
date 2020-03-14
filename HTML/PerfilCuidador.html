@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/PerfilCuidador.css">
+    <link rel="stylesheet" href="../CSS/SEPA-FOOTER.css">
+    <link href="../CSS/fonts.css" rel="stylesheet">
+    <title>Cuidador</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg" style="padding-left: 40px;">
+            <a class="navbar-brand" href="#">
+                <img src="../IMAGENES/Nuevos logos/logo.png" width="30" height="30" alt="">
+                <b>SEPA</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav navbar-nav-first">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Inicio.html"
+                            style="color: white; padding-left: 25px; padding-right: 25px;">Home
+                            <span class="sr-only">(current)</span> </a>
+
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-nav-first">
+                    <li style="padding-left: 25px;" class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Paciente
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="">Crear Perfil</a>
+                            <a class="dropdown-item" href="">Consultar Paciente</a>
+
+                        </div>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#asistenciaencasa" style="padding-left: 30px; padding-right: 30px;">Asistencia en
+                            Casa</a>
+                    </li>
+                </ul>
+                <ul style="padding-right: 25px;" class="nav navbar-nav navbar-nav-first">
+                    <li>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" style="background: #1D2023;
+                      border-color: #1D2023;">Reporte</button>
+                   </li>
+                   </ul>
+                    
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                <form class="nav navbar-nav navbar-nav-first" style="margin-right: 2%; margin-left: 15.5%;" id="search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+
+
+            </div>
+        </nav>
+
+
+    </header>
+
+    <section id="contenido">
+
+        <div style="padding-top: 115px;" class="container">
+            <div class="row">
+                <div style="margin-top: 25px;" class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="about-info">
+                                <div id="secciontitulo">
+                                    <div class="imagenpaciente">
+
+                                        <div class="container-equipo">
+                                            <div id="titulo">
+                                                <h1>Bienvenido Roberto Guerrero</h1>
+                                            </div>
+                                            <div class="pic">
+                                                <img src="../IMAGENES/roberto.PNG" alt="">
+                                            </div>
+                                            <div class="equipo-content">
+                                                <h3 class="tituloequipo">#34958</h3>
+                                                <span class="post"></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </diV>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="asistenciaencasa" class="container-fluid">
+            <div style=" background: white;border-radius: 24px;" class="tituloseccion">
+                <h1 style="padding-top">ASISTENCIA EN CASA</h1>
+                <section id="terapia">
+                    <div class="row">
+                        <div class="col-md-4">
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h1>Lista de Asistencias</h1>
+                                </div>
+
+                                <form class="card-body">
+
+                                    <div class="boton">
+                                        <button type="button" class="btn btn-primary">Asistencia de Marzo</button>
+                                    </div>
+                                    <div class="boton">
+                                        <button type="button" class="btn btn-primary">Asistencia de Abril</button>
+                                    </div>
+                                    <div class="boton">
+                                        <button type="button" class="btn btn-primary">Asistencia de Mayo</button>
+                                    </div>
+                                    <div class="boton">
+                                        <button type="button" class="btn btn-primary">Asistencia de Junio</button>
+                                    </div>
+                                    <div class="boton">
+                                        <button type="button" class="btn btn-primary">Asistencia de Julio</button>
+                                    </div>
+
+                                    <div>
+                                        <button style="width: 100%; margin-top: 2px;" type="button"
+                                            class="btn btn-danger">Agregar Asistencia</button>
+                                    </div>
+
+
+                                </form>
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+                        <div class="col-md-8" style="margin-left: -19px;">
+                            <div class="card">
+                                <div class="card-header" style="color: black;
+                                    font-weight: 600;"> Asistencia de Marzo</div>
+                                <form class="body">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <input style="width: 109%;" class="form-control" type="text"
+                                                name="nombre-terapia" placeholder="Nombre de la Terapia">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input style="width: 109%;" class="form-control" type="date">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <select style="width: 100%;" class="form-control" name="tipo_actividad"
+                                                id="tipoA">
+                                                <option value="tipoA">Actividad1</option>
+                                                <option value="tipoA">Actividad2</option>
+                                                <option value="tipoA">Actividad3</option>
+                                                <option value="tipoA">Actividad4</option>
+                                                <option value="tipoA">Actividad5</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="row">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div>
+                                                <label style="color: black;
+                                              font-weight: 600; padding-left: 13px;">Hora de inicio: </label>
+                                               <input
+                                                    class="form-control" type="time" name="hora-inicio" value="11:45:00"
+                                                    max="22:30:00" min="10:00:00 " style="width: 418px;">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div>
+                                                <label style="color: black;
+                                                font-weight: 600; padding-left: 13px;">Hora de finalización:<input
+                                                        class="form-control" type="time" name="hora-fin"
+                                                        value="11:45:00" max="22:30:00" min="10:00:00 " style="width: 404px; margin-top: 8px;"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <textarea class="form-control" name="descripcion-actividad" cols="30" rows="10"
+                                            placeholder="Descripción breve de la actividad" style="    width: 100%;"></textarea>
+
+                                    </div>
+                                    <div>
+                                        <textarea class="form-control name="" id="" cols=" 30" rows="5"
+                                            placeholder="Observaciones" style="    width: 100%;"></textarea>
+                                    </div>
+
+
+
+
+                                </form>
+
+
+
+                                </form>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                </section>
+
+
+            </div>
+        </div>
+
+
+
+        </div>
+        </div>
+
+
+
+    </section>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<section id="footer">
+    <div class="container-fluid">
+      <div class="row">
+  
+  
+  
+        <footer>
+  
+          <div class="container-footer-all">
+  
+            <div class="container-body">
+  
+  
+  
+              <div class="colum2">
+  
+  
+  
+                <div class="row-footer">
+                  <img style="width: 36px;" src="../IMAGENES/icon/facebook.png">
+                  <a href="#" id="footerlabel"><B>Siguenos en Facebook</B></a>
+                </div>
+                <div class="row-footer">
+                  <img style="width: 36px;" src="../IMAGENES/icon/twitter.png">
+                  <a href="#" id="footerlabel"><b>Siguenos en Twitter</b></a>
+                </div>
+                <div class="row-footer">
+                  <img style="width: 36px;" src="../IMAGENES/icon/instagram.png">
+                  <a href="#" id="footerlabel"><b>Siguenos en Instagram</b></a>
+                </div>
+                <div class="row-footer">
+                  <img style="width: 36px;" src="../IMAGENES/icon/google-plus.png">
+                  <a href="#" id="footerlabel"><b>Siguenos en Google Plus</b></a>
+                </div>
+                <div class="row-footer">
+                  <img style="width: 36px;" src="../IMAGENES/icon/pinterest.png">
+                  <a href="#" id="footerlabel"><b>Siguenos en Pinteres</b></a>
+                </div>
+  
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+          <div class="container-footer">
+            <div class="footer">
+              <div class="copyright">
+                © 2019 Todos los Derechos Reservados | <a href="">SEPA</a>
+              </div>
+  
+              <div class="information">
+                <a href="">Privacion y Politica</a> | <a href="">Terminos y
+                  Condiciones</a>
+              </div>
+            </div>
+  
+          </div>
+  
+        </footer>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+ 
+
+
+</html>
