@@ -8,6 +8,7 @@ header{
     z-index: 1030;
 }
 
+
 a:hover {
     color: royalblue;
     text-decoration: underline;
@@ -260,17 +261,8 @@ h3{
     position: relative;
     z-index:1;
 }
-.container-equipo .pic::before{
-    content: "";
-    width: 100%;
-    background: lightskyblue;
-    position: absolute;
-    right: 0;
-    left: 0;
-    transform: scale(3);
-    top: -20px;
-transition: all 0.3s linear 0s;
-}
+
+
 .container-equipo:hover .pic::before{
 height: 40%;
 }
@@ -322,38 +314,10 @@ z-index: -1;
     
 }
 
-.container-equipo .social{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background: #eb1768;
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    transition: all 0.5s ease 0s;
-}
 
-.container-equipo:hover .social{
-    bottom: 0;;
-}
 
-.container-equipo .social li{
-    display: inline-block;
-}
 
-.container-equipo .social li a{
-    display: block;
-    padding: 10px;
-    font-size: 17px;
-    color: white;
-    transition: all 0.3s ease 0s;
-}
-.container .social li a:hover{
-    color: #eb1768;
-    background: #f7f5ec;
-    text-decoration: none;
-    
-}
+
 
 
 /*Contacto*/
@@ -558,13 +522,21 @@ footer{
 
 
 #terapia{
-    position: absolute;
+    
     width: 100%;
     margin-left: 13px;
-    margin-top: 612px;
+    margin-top: 50px;
+    margin-right: 20px;
 
 }
 
+.text-area{
+     width: 500px;
+     margin-top: 20px;
+     border: 1 px solid;
+     border-color: steelblue;
+     border-radius: 4px;
+}
 
 
 
